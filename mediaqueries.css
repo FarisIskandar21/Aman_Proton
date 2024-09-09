@@ -1,0 +1,195 @@
+@media screen and (max-width: 1400px) {
+    #homepage {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+    .project-item {
+        flex: 1 1 calc(20% - 1rem); /* 5 items in a row */
+        max-width: calc(20% - 1rem);
+      }
+    
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    .exp-container {
+      flex: 1 1 calc(100% - 2rem); /* Two containers per row */
+      max-width: calc(100% - 2rem);
+    }
+    #homepage,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .section__pic-container_1 {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+      }
+    .about-containers {
+      margin-top: 0;
+    }
+    
+    /* Adjust logo size for tablet screens */
+    .logo img {
+      width: 120px; /* Adjust size for tablets */
+      padding: 5px;
+      margin: 0 15px;
+    }
+    .project-item {
+        flex: 1 1 calc(33.33% - 1rem); /* 3 items in a row */
+        max-width: calc(33.33% - 1rem);
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+  
+    #homepage {
+      height: 83vh;
+      margin-bottom: 0;
+      margin-top: 2rem;
+    }
+  
+    #hamburger-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px; /* Add some padding for spacing */
+    }
+  
+    .hamburger-icon {
+      margin-left: auto; /* Push hamburger icon to the right */
+    }
+  
+    body {
+      text-align: center;
+    }
+  
+    /* Adjust exp-container for mobile */
+    .exp-container {
+      flex: 1 1 100%; /* Single container per row */
+      max-width: 100%; /* Ensure full width */
+      padding: 1rem; /* Add padding around the container */
+      border: 0.1rem solid rgb(100, 2, 2); /* Ensure border is visible */
+      box-sizing: border-box; /* Ensure padding and border are included in size */
+    }
+  
+    /* Adjust font size for article */
+    article {
+      font-size: 1rem;
+    }
+  
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+  
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+  
+    .contact-info-container {
+      margin: 0;
+    }
+  
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+  
+    /* Adjust experience-sub-title for mobile */
+    .experience-sub-title {
+      font-size: 1.25rem; /* Smaller font for mobile */
+    }
+  
+    /* Adjust logo size for mobile */
+    .logo {
+      font-size: 1.5rem;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+  
+    /* Ensure two items in a row for project items */
+    .project-item {
+      flex: 1 1 calc(50% - 1rem); /* 2 items in a row */
+      max-width: calc(50% - 1rem);
+    }
+  
+    .section__pic-container_1 .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+      justify-content: center;
+    }
+  
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .text-container {
+      text-align: justify;
+    }
+  
+    /* Adjust logo size for mobile screens */
+    .logo img {
+      width: 80px; /* Smaller logo for mobile */
+      padding: 5px;
+      margin: 0 10px;
+    }
+  }
+  
+  
