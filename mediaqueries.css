@@ -217,6 +217,18 @@
 
 /* For phones in landscape mode */
 @media only screen and (max-width: 600px) and (orientation: landscape) {
+  .container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+.slider-wrapper {
+  position: relative;
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Center the slider inside the wrapper */
+}
   .slider {
     max-height: 50vh; /* Limit the height of the slider to prevent it from being too tall */
     justify-content: center; /* Center images horizontally */
@@ -233,6 +245,18 @@
 
 /* For iPads and larger devices in portrait or landscape */
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+.slider-wrapper {
+  position: relative;
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Center the slider inside the wrapper */
+}
   .slider {
     max-height: 60vh; /* Adjust for larger screens */
     justify-content: center; /* Center images horizontally */
