@@ -217,11 +217,7 @@
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   /* Styles for phones in landscape mode */
-  .slider {
-    /* Adjust slider dimensions for landscape mode */
-    height: auto;
-    max-height: 50vh; /* Adjust max height to fit within the screen */
-  }
+  
 
   .slider img {
     object-fit: contain; /* Ensure the entire image is visible */
@@ -229,13 +225,5 @@
     height: auto; /* Maintain aspect ratio */
   }
 
-  /* Adjust other elements for landscape mode */
-  body {
-    font-size: 1.2rem; /* Increase font size for better readability */
-  }
-
-  /* Adjust padding/margins for landscape */
-  .container {
-    padding: 0.5rem; /* Less padding in landscape to maximize space */
-  }
+  
 }
