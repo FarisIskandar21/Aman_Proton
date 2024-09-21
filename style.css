@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(194, 212, 212);
+  background-color: rgb(180, 183, 185);
 }
 
 html {
@@ -250,6 +250,7 @@ section {
       height: 400px;
       width: 400px;
       margin: auto 0;
+      
     }
     
     .section__text {
@@ -430,6 +431,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  
 }
 
 .arrow {
@@ -439,7 +441,8 @@ section {
 }
 
 h3{
-  color: #367588;
+  color: #b41f1f;
+  font-size: large;
 }
 
 .details-container {
@@ -454,12 +457,14 @@ h3{
 
 .text-container{
     text-align: justify;
-    -webkit-text-fill-color: #367588;
-    font-weight: 400;
+    -webkit-text-fill-color: #083746;
+    font-weight: 500;
+    font-size: x-large;
+    
 }
 .section-container {
   gap: 4rem;
-  height: 50%;
+  height: 100%;
 }
 
 .section__pic-container {
@@ -517,6 +522,7 @@ h3{
 }
 
 .exp-container {
+  padding-top: 2rem;
   padding: 1.5rem;
   background: white;
   border-radius: 2rem;
@@ -525,6 +531,7 @@ h3{
   flex: 1 1 calc(100% - 2rem); /* Each container takes up 1/3 of the row with spacing */
   box-sizing: border-box; /* Include padding and border in container size */
   max-width: calc(100% - 2rem); /* Prevent overflow of container */
+  margin-bottom: 2rem;
 }
 
 .experience-details-container {
@@ -532,7 +539,7 @@ h3{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  padding: 2rem; 
 }
 
 .article-container {
@@ -543,6 +550,9 @@ h3{
   gap: 2.5rem; */
   justify-content: center;
   align-items: center;
+}
+.article-container img{
+  width :50%;
 }
 
 article {
