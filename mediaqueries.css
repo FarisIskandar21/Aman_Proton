@@ -219,12 +219,15 @@
 @media only screen and (max-width: 600px) and (orientation: landscape) {
   .slider {
     max-height: 50vh; /* Limit the height of the slider to prevent it from being too tall */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
   }
 
   .slider img {
     object-fit: contain; /* Make sure the entire image is visible */
     width: 100%; /* Full width */
     height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Ensure image is centered */
   }
 }
 
@@ -232,11 +235,14 @@
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .slider {
     max-height: 60vh; /* Adjust for larger screens */
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically */
   }
 
   .slider img {
     object-fit: contain; /* Ensure images fit without cropping */
     width: 100%;
     height: auto;
+    margin: 0 auto; /* Ensure image is centered */
   }
 }
