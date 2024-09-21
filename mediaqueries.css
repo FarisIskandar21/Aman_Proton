@@ -70,7 +70,9 @@
   .about-containers {
     margin-top: 0;
   }
-  
+  .slider img {
+    object-fit: contain; /* Make sure the image fits well on tablets */
+  }
   /* Adjust logo size for tablet screens */
   .logo img {
     width: 120px; /* Adjust size for tablets */
@@ -204,6 +206,12 @@
     width: 80px; /* Smaller logo for mobile */
     padding: 5px;
     margin: 0 10px;
+  }
+
+  .slider img {
+    object-fit: contain; /* Ensure the entire image is visible */
+    width: 100%; /* Make the image take up the full width */
+    height: auto; /* Adjust height to maintain aspect ratio */
   }
 }
 
