@@ -192,13 +192,11 @@ a:hover {
 }
 
 .slider img {
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    /* object-fit: cover; */
-      object-fit: contain; 
-      width: 100%; 
-      height: auto; 
-    
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: contain; /* Ensure the entire image is visible */
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .slider-nav {

@@ -215,15 +215,28 @@
   }
 }
 
+/* For phones in landscape mode */
 @media only screen and (max-width: 600px) and (orientation: landscape) {
-  /* Styles for phones in landscape mode */
-  
-
-  .slider img {
-    object-fit: contain; /* Ensure the entire image is visible */
-    width: 100%; /* Full width of the container */
-    height: auto; /* Maintain aspect ratio */
+  .slider {
+    max-height: 50vh; /* Limit the height of the slider to prevent it from being too tall */
   }
 
-  
+  .slider img {
+    object-fit: contain; /* Make sure the entire image is visible */
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* For iPads and larger devices in portrait or landscape */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .slider {
+    max-height: 60vh; /* Adjust for larger screens */
+  }
+
+  .slider img {
+    object-fit: contain; /* Ensure images fit without cropping */
+    width: 100%;
+    height: auto;
+  }
 }
